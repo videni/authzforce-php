@@ -1,0 +1,34 @@
+{
+    "name": "videni/authzforce-php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["AuthzForce", "XACML V3"],
+    "require": {
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Vidy Videni",
+            "email": "vidy.videni@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "6.3.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "AuthzForce\\Tests\\": "tests/AuthzForce/Tests/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AuthzForce\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
